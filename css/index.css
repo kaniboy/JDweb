@@ -1,0 +1,204 @@
+.tbody {
+    width: 100%;
+    height: 1000px;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0px auto;
+}
+
+/*---header start---*/
+
+.header {
+    height: 40px;
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    background-image: linear-gradient(0deg, #131B79, #2A3297);
+    position: fixed;
+    z-index: 1000;
+}
+
+.header .logo {
+    width: 60px;
+    height: 24px;
+    display: block;
+    background: url("../images/jd-sprites.png") no-repeat;
+    background-size: 200px 200px;
+    background-position: 0px -106px;
+    margin: 6px 10px;
+}
+
+.search {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 5px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+.search input {
+    width: 100%;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 34px;
+}
+
+.search::before {
+    width: 26px;
+    height: 21px;
+    background: url("../images/jd-sprites.png") no-repeat;
+    background-size: 200px 200px;
+    background-position: -56px -110px;
+    content: "";
+    position: absolute;
+    left: 86px;
+    top: 5px;
+}
+
+.login {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/*---header last--*/
+
+/*---轮播图 start---*/
+
+#carouse1 {
+    width: 100%;
+}
+
+.swiper-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+/*---轮播图 end---*/
+
+.main {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0px 0px 20px 0;
+}
+
+.main div {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main img {
+    width: 60px;
+    height: 60px;
+}
+
+.main div p {
+    line-height: 30px;
+}
+
+/*----main end---*/
+
+/*---hot start---*/
+
+.hot {
+    width: 100%;
+    height: 250px;
+    border-top: 10px solid #DDDDDD;
+    border-bottom: 10px solid #DDDDDD;
+}
+
+.hot_top{
+    width: 100%;
+    height: 20px;
+    margin: 6px;
+    position: relative;
+}
+
+.hot_logo{
+    margin-left: 10px;
+}
+
+.hot_logo a{
+    display: block;
+    height: 20px;
+    width: 16px;
+    background: url("../images/jd-sprites.png") no-repeat;
+    background-size: 200px 200px;
+    background-position: -84px -110px;
+    float: left;
+}
+
+.hot_logo span{
+    font-size: 14px;
+    color: #E92322;
+    margin-left: 12px;
+}
+
+.hot_time{
+    width: 160px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    left: 110px;
+    
+}
+
+.hot_time span{
+    display: inline-block;  
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    width: 12px;
+}
+
+.hot_time .bgc{
+    width: 16px;
+     height: 20px;
+     color: #fff;
+     background-color: #000000;
+}
+
+.more{
+    height: 20px;
+    width: 70px;
+    position: absolute;
+    top: 0px;
+    right: 16px;
+}
+
+.more span{
+    font-size: 14px;
+}
+
+.hot_img{
+    width: 100%;
+    height: 170px;
+    margin-top: 20px;
+}
+
+.hot_imgnav{
+    height: 140px;
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    border-right: 2px solid #CCCCCC;
+}
+
+.hot_imgnav:last-child{
+    border-right: 2px solid transparent;
+}
+
+.hot_imgnav img{
+    width: 120px;
+    height: 120px;
+}
+

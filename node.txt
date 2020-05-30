@@ -1,0 +1,31 @@
+1. linear-gradient() 函数用于创建一个线性渐变的 "图像"
+   (1)background-image: linear-gradient(red, yellow, blue);
+      从头部开始的线性渐变，从红色开始，转为黄色，再到蓝色:
+   (2)background-image: linear-gradient(to right, red , yellow);
+      从左侧开始的线性渐变，从红色开始，转为黄色:
+   (3)background-image: linear-gradient(90deg, red, yellow); 
+      0deg:从上向下渐变  90deg:从左向右渐变  180deg:从下向上渐变
+
+2. 固定定位：position: fixed;
+
+3. 精灵图精准显示：
+    background: url("../images/big.png") no-repeat;
+    （background选择精灵图且不重复）
+    background-size: 55px 20px;（设置图片大小缩小二倍）
+    background-position: 0px 0px;（精准显示图片）
+
+4.块标签，行内标签，行内块标签以及之间的相互转换
+    各种标签之间的转换
+    1、块级标签转换为行内标签：display:inline;
+    2、行内标签转换为块级标签：display:block;
+    3、转换为行内块标签：display：inline-block;
+    块标签：独自占领一行、可以进行宽高的数值的设定；
+    行标签：在一行内显示、不可以进行宽高的数值设定；
+    行内块标签：能和其他元素待在一行，能设置宽高；
+ a标签加上position:absolute后可以设置宽高（不理解）
+
+5.  .search::before{content} 伪元素
+    表示在form内部最前面添加一个元素，用于搜索框添加小图标
+
+6.    border-right: 2px solid transparent;
+      transparent意为：透明的
